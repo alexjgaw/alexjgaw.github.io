@@ -6,6 +6,9 @@
 # testing
 /coverage
 
+# css files created by Sass
+src/**/*.css
+
 # production
 /build
 
