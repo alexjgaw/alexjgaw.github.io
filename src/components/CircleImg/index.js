@@ -1,9 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import './index.css';
 
 const CircleImg = (props) => {
   return (
-    <div className="CircleImg">
+    <div className="CircleImg big">
       <img src={props.path} alt={props.altString} />
     </div>
   );

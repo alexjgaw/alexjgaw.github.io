@@ -1,0 +1,14 @@
+.CircleImg {
+  border: 8px solid #128a6f;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.CircleImg img {
+  height: 100%;
+}
+
+.CircleImg.big {
+  height: 250px;
+  width: 250px;
+}
