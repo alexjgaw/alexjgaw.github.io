@@ -9,8 +9,6 @@ cloudinary.config({
   cloud_name: 'alex-gaw'
 });
 
-console.log(cloudinary.image('sample.jpg', { alt: 'Sample' }));
-
 const App = () => {
   return (
     <Grid className="App" fluid>

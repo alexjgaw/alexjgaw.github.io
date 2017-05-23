@@ -3,15 +3,20 @@ import cloudinary from 'cloudinary';
 import { Jumbotron, Row, Col } from 'react-bootstrap';
 import CircleImg from '../CircleImg';
 import alex from '../../images/alex.jpg';
+import './index.css';
 
 const Hi = () => {
   const bgImg = cloudinary.url('cosmic-timetraveler-221383_a0hcsh',
     {
       width: 1500,
-      effect: ['brightness', 80]
+      crop: 'crop',
+      opacity: 20,
+      gravity: 'south'
     });
   const jumbotronStyle = {
-    backgroundImage: 'url(' + bgImg + ')'
+    backgroundImage: 'url(' + bgImg + ')',
+    backgroundColor: 'rgba(255,255,255,0.1)',
+    backgroundBlendMode: 'luminosity'
   };
 
   return (
