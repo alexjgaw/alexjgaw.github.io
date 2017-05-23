@@ -2,6 +2,7 @@
   border: 8px solid #128a6f;
   border-radius: 50%;
   overflow: hidden;
+  margin: auto;
 }
 
 .CircleImg img {
