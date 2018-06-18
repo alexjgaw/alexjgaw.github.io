@@ -1,0 +1,9 @@
+#hill {
+  position: absolute;
+  bottom: -10px;
+  width: 100%;
+}
+
+#hill object {
+  height: 30vh;
+}

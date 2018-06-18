@@ -1,0 +1,30 @@
+#message-box {
+  display: inline-block;
+  font-size: 2em;
+  position: absolute;
+  top: 14vw;
+  right: 1.8vw;
+  width: 44vw;
+  white-space: pre-wrap;
+}
+
+#message-box h2 {
+  font-size: 2.3em;
+  line-height: 1em;
+  margin-top: 1vw;
+  margin-bottom: 0;
+}
+
+#message-box a {
+  color: #00c1a6;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+#message-box a:first-of-type {
+  margin-right: 2vw;
+}
+
+#message-body {
+  margin-top: 1vw;
+}

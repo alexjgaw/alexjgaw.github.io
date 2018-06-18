@@ -1,0 +1,112 @@
+#rainbow-container {
+  height: 22vw;
+  display: inline-block;
+  float:right;
+  margin-top: 2vw;
+  margin-right: -5vw;
+  pointer-events: none;
+  position: relative;
+}
+
+#rainbow-container h3 {
+  display: inline-block;
+  font-size: 2em;
+  letter-spacing: 0.3em;
+  margin: 0;
+  position: absolute;
+  top: -3vw;
+  left: 21vw;
+}
+
+path {
+  pointer-events: painted;
+}
+
+#rainbow {
+  height: 90%;
+  width: auto;
+  position: relative;
+  z-index: 3;
+}
+
+.rainbow-cloud {
+  height: 33%;
+  width: auto;
+  pointer-events: none;
+  position: relative;
+  bottom: -1vw;
+  z-index: 4;
+}
+
+.cloud-path {
+  pointer-events: painted;
+}
+
+.rainbow-cloud.left {
+  margin-right: -14vw;
+}
+
+.rainbow-cloud.right {
+  margin-left: -14vw;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+#curve {
+  pointer-events: none;
+  position: relative;
+  z-index: 0;
+}
+
+#work {
+  pointer-events: none;
+}
+
+/* Rainbow lines */
+#rainbow-red:hover {
+  fill: #ff1919;
+}
+
+#rainbow-red:active {
+  fill: #b20000;
+}
+
+#rainbow-orange:hover {
+  fill: #ffa433;
+}
+
+#rainbow-orange:active {
+  fill: #cc7100;
+}
+
+#rainbow-yellow:hover {
+  fill: #fff34d;
+}
+
+#rainbow-yellow:active {
+  fill: #ccbe00;
+}
+
+#rainbow-green:hover {
+  fill: #00b42e;
+}
+
+#rainbow-green:active {
+  fill: #004e14;
+}
+
+#rainbow-blue:hover {
+  fill: #3370ff;
+}
+
+#rainbow-blue:active {
+  fill: #003dcc;
+}
+
+#rainbow-purple:hover {
+  fill: #a101bb;
+}
+
+#rainbow-purple:active {
+  fill: #490155;
+}

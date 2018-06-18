@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="341.1611mm"
+   height="264.86569mm"
+   viewBox="0 0 341.1611 264.86569"
+   version="1.1"
+   id="svg821"
+   sodipodi:docname="textshape.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <defs
+     id="defs815" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.37363414"
+     inkscape:cx="1276.7953"
+     inkscape:cy="285.60443"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <metadata
+     id="metadata818">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-36.326176,-4.2336976)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 345.44992,64.4436 C 276.75065,-0.40825541 158.31598,-29.631298 55.530956,64.53876 c 17.933858,-0.546953 32.473243,12.700333 33.997543,30.295833 0,0 15.469021,13.401197 21.137801,19.513627 -4.35555,8.71108 -26.526412,5.36128 -34.517197,2.69768 -3.384446,-1.12815 -37.394586,-5.11947 -38.025366,-1.9043 -1.19516,47.60197 -2.353207,105.9916 -1.170588,153.60482 103.588711,0.38443 240.973521,-0.0321 339.994781,0.22046 1.88015,-3.76031 -3.15265,-149.86644 -6.9235,-153.63727 -6.8096,-6.80961 -75.27619,10.85479 -73.26502,-1.05944 0.67775,-4.01499 12.52648,-16.895615 20.53583,-20.153011 3.5885,-22.099494 17.24121,-27.760455 28.15468,-29.673561 z"
+       id="path825"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccscsccccsccc" />
+    <flowRoot
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none"
+       id="flowRoot843"
+       transform="translate(1.0583333)"><flowRegion
+         id="flowRegion845"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:14.11111069px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:justify;writing-mode:lr-tb;text-anchor:start"><use
+           x="0"
+           y="0"
+           xlink:href="#path825"
+           id="use847"
+           width="100%"
+           height="100%" /></flowRegion><flowPara
+         id="flowPara849">I'm a web developer who's interested in humanity in tech. I love to use my brain to solve problems, but I strongly believe that the first step has to be using my heart to figure out what problems to solve. I also think the world is generally a pretty silly place.</flowPara></flowRoot>  </g>
+</svg>
