@@ -6,6 +6,7 @@ const Greeting = (props) => {
     <div id="greeting">
       <h1>Hi,</h1>
       <h2>I'm Alex</h2>
+      <h3>A Web Developer from Austin, TX</h3>
     </div>
   );
 };

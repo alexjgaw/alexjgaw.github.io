@@ -35,31 +35,31 @@ class App extends Component {
       case 'rainbow-orange':
         title = 'eventTracker';
         message = 'A simple solution for hiding an event registration form turned into a lesson on reusability, forethought, and more advanced JavaScript concepts such as closure and a JS approach to object orientation.\nVanilla JavaScript | Closure | Functional OOP';
-        gitHubUrl = '';
+        gitHubUrl = 'https://github.com/alexjgaw/bits-and-pieces/tree/master/eventTracker';
         liveUrl = '';
         break;
       case 'rainbow-yellow':
         title = 'Book Store';
         message = 'Quick project done as part of the Python Megacourse on Udemy. Simple, single-table SQLite database handles the books, Tkinter handles the frontend, and Python brings it all together.\nSQLite | Python | Tkinter';
-        gitHubUrl = '';
+        gitHubUrl = 'https://github.com/alexjgaw/bits-and-pieces/tree/master/bookstore';
         liveUrl = '';
         break;
       case 'rainbow-green':
         title = 'Contact List';
         message = 'Early project using React and Redux to keep track of contacts. No server included so I figured out how to use Google Firebase for the live version.\nReact | Redux | Google Firebase';
-        gitHubUrl = '';
+        gitHubUrl = 'https://github.com/alexjgaw/advanced-contact-list-starter';
         liveUrl = '';
         break;
       case 'rainbow-blue':
         title = 'Fund That';
         message = 'Automatic donation platform. Is there a cause you care about at risk from the Trump administration? Fund that!\n React | Bootstrap | Redux | Express | MongoDB | Mongoose';
-        gitHubUrl = '';
+        gitHubUrl = 'https://github.com/alexjgaw/fund-that';
         liveUrl = '';
         break;
       case 'rainbow-purple':
         title = 'Dice Exercise';
         message = 'Simple dice cup game in Ruby. A challenge from a prospective employer.\n Ruby';
-        gitHubUrl = '';
+        gitHubUrl = 'https://github.com/alexjgaw/dice-exercise';
         liveUrl = '';
         break;
       default:
