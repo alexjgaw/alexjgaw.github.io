@@ -5,7 +5,6 @@ import Hill from './components/Hill';
 import Cloud from './components/Cloud';
 import Rainbow from './components/Rainbow';
 import Greeting from './components/Greeting';
-import Message from './components/Message';
 
 class App extends Component {
   constructor(props) {
@@ -48,7 +47,7 @@ class App extends Component {
         title = 'Contact List';
         message = 'Early project using React and Redux to keep track of contacts. No server included so I figured out how to use Google Firebase for the live version.\nReact | Redux | Google Firebase';
         gitHubUrl = 'https://github.com/alexjgaw/advanced-contact-list-starter';
-        liveUrl = '';
+        liveUrl = 'https://alexjgaw.github.io/contact-list/';
         break;
       case 'rainbow-blue':
         title = 'Fund That';
@@ -57,10 +56,10 @@ class App extends Component {
         liveUrl = '';
         break;
       case 'rainbow-purple':
-        title = 'Dice Exercise';
-        message = 'Simple dice cup game in Ruby. A challenge from a prospective employer.\n Ruby';
-        gitHubUrl = 'https://github.com/alexjgaw/dice-exercise';
-        liveUrl = '';
+        title = 'Tic Tac Toe';
+        message = 'Simple game of tic tac toe.\n JavaScript | jQuery';
+        gitHubUrl = 'https://github.com/alexjgaw/javascript-workbook/tree/gh-pages/apps/07jquery-tic-tac-toe';
+        liveUrl = 'https://alexjgaw.github.io/javascript-workbook/apps/07jquery-tic-tac-toe/';
         break;
       default:
         return;
@@ -81,8 +80,6 @@ class App extends Component {
         <Greeting/>
         <Rainbow
           changeMessage={this.handleChangeMessage}
-        />
-        <Message
           title={this.state.messageTitle}
           text={this.state.message}
           gitHubUrl={this.state.gitHubUrl}

@@ -6,6 +6,10 @@ body {
   overflow: hidden;
 }
 
+#root {
+  overflow: hidden;
+}
+
 .clearfix:after {
   content: "";
   display: table;

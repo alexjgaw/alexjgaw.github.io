@@ -1,5 +1,5 @@
 #rainbow-container {
-  height: 22vw;
+  height: 24vw;
   display: inline-block;
   float:right;
   margin-right: -5vw;
@@ -62,6 +62,10 @@ path {
 }
 
 /* Rainbow lines */
+#rainbow-red, #rainbow-orange, #rainbow-yellow, #rainbow-green, #rainbow-blue, #rainbow-purple {
+  cursor: pointer;
+}
+
 #rainbow-red:hover {
   fill: #ff1919;
 }

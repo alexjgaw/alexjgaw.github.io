@@ -1,6 +1,8 @@
 import React from 'react';
 import './index.css';
 
+import Message from '../Message';
+
 const Rainbow = (props) => {
   const change = (e) => {
     props.changeMessage(e);
@@ -242,7 +244,7 @@ const Rainbow = (props) => {
         <path
           id="curve"
           fill="transparent"
-          d="M143.938 53.976c57.07-16.47 114.408.334 119.044 1.44"
+          d="m 109.07414,71.214525 c 91.4254,-58.161957 183.2813,1.1826 190.70858,5.084565"
           strokeWidth={0.408}
         />
         <text
@@ -257,7 +259,7 @@ const Rainbow = (props) => {
             fontSize={16.933}
             letterSpacing={0.698}
           >
-            Here's my work
+            Here's some of my work
           </textPath>
         </text>
       </g>
@@ -270,6 +272,12 @@ const Rainbow = (props) => {
       {leftCloud}
       {rainbowSvg}
       {rightCloud}
+      <Message
+        title={props.title}
+        text={props.text}
+        gitHubUrl={props.gitHubUrl}
+        liveUrl={props.liveUrl}
+      />
     </div>
   );
 };
